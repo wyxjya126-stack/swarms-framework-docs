@@ -41,6 +41,8 @@ class ConcurrentWorkflow:
         show_dashboard: bool = False,
         autosave: bool = True,
         verbose: bool = False,
+        on_error: str = "store",
+        max_workers: Optional[int] = None,
     )
 ```
 
